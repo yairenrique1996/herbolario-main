@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--CSS BOOSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/styles/estilosHome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+
+    <header>
+        {% include './shared/menu.html' %}
+    </header>
+    <main>
+        <section>
+            <div class="banner">
+                <img src="../static/img/elherbario_logo.svg">
+            </div>
+        </section>
+
+        <section>
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-5">
+                        <img src="../static/img/plato.png" alt="plato" class="img-fluid w100">
+                        <h1>El herbario de la huerta</h1>
+                        <p class="wow animate__animated animate__fadeInUp animate__slow">
+                            Deliciosa comida Casera Hecha con las más finas hierbas e ingredientes para demostrar a todos nuestros comenzales
+                            toda la pacion y dedicacion por nuestra cocina, buscando no solo balancear toda la tabla nutricional para los 
+                            paladares mas finos y exigentes sino tambien para aquellos qei simplemente buscan recordar aque sabor de la abuela.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid g-0 my-5">
+                <div class="row">
+                    <div class="col-12 col-md-6 align-self-center">
+                        <img src="../static/img/huerta.jpeg" alt="huerta" class="img-fluid w-100">
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="row">
+
+                            <div class="col-12 col-md-6 text-center">
+                                <img src="../static/img/vegetal_1.jpg" alt="vg1" class="img-fluid w-100">
+                                <h2 class="fw-bold wow animate__animated animate__fadeInUp animate__slow">Catering</h2>
+                                <p class="wow animate__animated animate__fadeInUp animate__slow">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima enim quas voluptatum expedita laboriosam 
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus provident molestias cupiditate velit 
+                                    veniam obcaecati, hic dolores voluptates dignissimos saepe qui enim inventore recusandae omnis accusantium autem,
+                                    impedit, deserunt et.</p>
+                            </div>
+
+                            <div class="col-12 col-md-6 text-center">
+                                <img src="../static/img/vegetal_2.jpg" alt="vg2" class="img-fluid w-100">
+                                <h2 class="fw-bold wow animate__animated animate__fadeInUp animate__slow">Servicios Sociales</h2>
+                                <p class="wow animate__animated animate__fadeInUp animate__slow">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima enim quas voluptatum expedita laboriosam 
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus provident molestias cupiditate velit 
+                                    veniam obcaecati, hic dolores voluptates dignissimos saepe qui enim inventore recusandae omnis accusantium autem,
+                                    impedit, deserunt et.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container menu">
+                <div class="row justify-content-center p-5">
+
+                <div class="col-12 text-center text-white">
+                    <h2 class="mb-3">Nuestros platos</h2>
+                </div>
+                <div class="col-12 col-md-3">
+                    <img src="../static/img/plato1.jpg" alt="plato1" class="img-fluid w-100 wow animate__animated animate__fadeInLeft animate__slow zoom">
+                </div>
+                <div class="col-12 col-md-3">
+                    <img src="../static/img/plato2.jpg" alt="plato2" class="img-fluid w-100 zoom">
+                </div>
+                <div class="col-12 col-md-3">
+                    <img src="../static/img/plato3.jpg" alt="plato3" class="img-fluid w-100 wow animate__animated animate__fadeInRight animate__slow zoom">
+                </div>
+                <div class="col-12 text-center mt-4">
+                    <a href="a" class="btn btn-outline-light">Ver Menu</a>
+                </div>
+
+                </div>
+                
+            </div>
+        </section>
+
+
+    </main>
+    <footer>
+        
+    </footer>
+
+
+    <!--JAVASCRIPT BOOSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+
+</body>
+</html>
